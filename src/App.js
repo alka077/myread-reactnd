@@ -12,7 +12,7 @@ const bookshelves = [
   { key: 'read', name: 'Read' }
 ];
 
-class BooksApp extends React.Component {
+class App extends React.Component {
   state = {
     myBooks: [],
     searchBooks: [],
@@ -102,4 +102,4 @@ class BooksApp extends React.Component {
 }
 
 
-export default BooksApp
+export default App
